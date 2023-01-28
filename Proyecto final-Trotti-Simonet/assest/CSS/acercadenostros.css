@@ -1,0 +1,9 @@
+body{
+    background-color: beige;
+}
+
+div img{
+    offset-distance: right;
+    width: 200px;
+  height: 200px;
+}
