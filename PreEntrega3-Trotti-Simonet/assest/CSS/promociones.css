@@ -96,3 +96,23 @@ height: 100px;
  
 }
 
+nav ul{
+    background-color:aquamarine;
+    font-size: 20px;
+    list-style: none;
+}
+
+nav ul li{
+    color: darkcyan;
+    font-weight: bold;
+    display:inline-block;
+}
+
+nav ul li a{
+    color: darkcyan;
+}
+
+nav ul li a:hover{
+color: orangered;
+}
+
