@@ -91,8 +91,6 @@ h3{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
-    
 
 }
 
@@ -143,7 +141,7 @@ height: 300px;
 
 .modelo__button{
 	background-color:#44c767;
-	border-radius:28px;
+	border-radius:20px;
 	border:1px solid #18ab29;
 	display:block;
     position: relative;
@@ -155,7 +153,7 @@ height: 300px;
 	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
-    margin: 0 auto;
+    margin: 20px auto;
  
 }
 
@@ -175,7 +173,13 @@ height: 300px;
 }
 
 
-
+.zoom-box {
+    transition: transform .2s; /* Animation */
+  }
+  
+  .zoom-box:hover {
+    transform: scale(1.5);
+  }
 
 
 .presionar__button {
@@ -202,16 +206,22 @@ height: 300px;
 }
 
 #container{
-    background: linear-gradient(
-        to right,rgb(135, 159, 225),rgb(236, 194, 212)
-    );
+    background: linear-gradient(to right,rgb(135, 159, 225),rgb(236, 194, 212));
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows:100vh ;
-    grid-template-areas: 
-    "container-cards"
-    ;
-    
+    grid-template-areas:"container-cards";
+    align-items: center;
+    justify-items: center;
+
+}
+
+#container2{
+    background: linear-gradient(to right,rgb(135, 159, 225),rgb(236, 194, 212));
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:100vh ;
+    grid-template-areas: "container-cards";
     align-items: center;
     justify-items: center;
 
