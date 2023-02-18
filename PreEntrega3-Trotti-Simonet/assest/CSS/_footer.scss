@@ -1,6 +1,0 @@
-@use '_commons' as c;
-
-.footer{
-    font-size: 20px;
-    color:map-get(c.$colores,"parrafo");
-}
